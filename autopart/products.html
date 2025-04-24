@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Parts - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Button Styling */
+        .contact-btn {
+            display: inline-block;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            padding: 8px 15px; /* Padding for the button */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold;
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+            cursor: pointer;
+        }
+
+        /* Hover Effect */
+        .contact-btn:hover {
+            background-color: #FFD700; /* Yellow background on hover */
+            color: #000; /* Black text on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="product1.jpg" alt="Brake Pads">
+                        <h3>Brake Pads</h3>
+                        <p>High-quality brake pads for all vehicle models.</p>
+                        <!-- Contact Us Button -->
+                        <a href="contact.html" class="contact-btn">Contact Us</a>
+                    </div>
+                    <div class="product-item">
+                        <img src="product2.jpg" alt="Engine Filters">
+                        <h3>Engine Filters</h3>
+                        <p>Durable engine filters to keep your engine clean.</p>
+                        <!-- Contact Us Button -->
+                        <a href="contact.html" class="contact-btn">Contact Us</a>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Auto Parts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
